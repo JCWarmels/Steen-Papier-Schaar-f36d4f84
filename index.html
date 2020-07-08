@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1 id="prompt">Hallo, wil je Steen, Papier, Schaar spelen?</h1>
+    <div>
+        <button class="btn" onclick="initiate()">Ja</button>
+        <button class="btn" onclick="alert('Wat jammer!')">Nee</button>
+    </div>
+    <div id="boi" hidden>
+        <button id="steen" onclick="intermediate('Steen')">Steen!</button>
+        <button id="papier" onclick="intermediate('Papier')">Papier!</button>
+        <button id="schaar" onclick="intermediate('Schaar')">Schaar!</button>
+    </div>
+</body>
+</html>
